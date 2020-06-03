@@ -1,0 +1,106 @@
+#TeamTitle{
+    margin-top: 1rem;
+    color: #4EFCE2;
+    background-color: black;
+    border-radius: 10px;
+    margin: 1rem 2rem 0rem 2rem;
+
+
+}
+#StatsCard{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#StatsCard > h5,h1 {
+    margin: 0px;
+}
+#StatsCard > h1 {
+    color: turquoise;
+}
+.StatsCard > a {
+    color: black;
+}
+#StatsCard > img{
+    width: 120px;
+    margin: 1rem 1rem 0rem 1rem;
+}
+#StatsWrapper{
+    position: inherit;
+    background-color: white;
+    padding : 1rem;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    justify-items: center;
+    width: 100%;
+}
+#TeamCard > h4{
+    color: turquoise;
+    margin: 0px;
+}
+.Social {
+    margin: 1rem;
+}
+
+.Social > a {
+    margin: 6px;
+    cursor: pointer;
+}
+#TeamCard{
+    background-color: white;
+    width: 260px;
+    margin: 1rem;
+    margin-top: 6rem;
+    display: grid;
+    justify-items: center;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+#TeamCard > h5, p {
+    margin: 0px;
+}
+.Circle > img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+
+.Circle{
+    background-color: #F4F4F4;
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: -6rem;
+
+}
+
+#StatsCard > a {
+        color: #FF6D6D;
+        font-size: 16px;
+        margin: 1rem;
+    }
+#TeamWrapper{
+    display: grid;
+    justify-items: center;
+}
+    @media (min-width: 640px){
+        #TeamScroller{
+            grid-auto-flow: column;
+            grid-auto-columns: auto;
+            grid-template-rows: 1fr;
+            justify-items: center;
+        }
+        #StatsWrapper{
+            grid-auto-flow: column;
+            grid-template-columns: auto;
+            align-items: flex-start;
+            
+        }
+    }

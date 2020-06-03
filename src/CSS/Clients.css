@@ -1,0 +1,103 @@
+#Clients{
+    background-color: #4EFCE2;
+    color: white;
+    margin-top: -100px;
+}
+
+#Clients > h3 {
+    margin-top: 115px;
+
+}
+
+#ClientWrapper {
+    background-color: white;
+    margin: 0px;
+    text-align: center;
+
+}
+.Expander {
+    padding: 1rem;
+}
+.Expander > h4{
+    margin: 0px;
+}
+#inWrapper{
+    background-color: white;
+    margin: 0px;
+    text-align: center;
+    overflow: hidden;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-right: 1rem;
+    grid-gap: 1rem;
+}
+#inWrapper > img {
+    max-width: 140px;
+    margin: 1rem;
+}
+#LogoWrapper{
+    background-color: white;
+    margin: 0px;
+    text-align: center;
+    overflow: hidden;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+#LogoWrapper > img {
+    margin: 1rem;
+}
+
+.Review{
+    text-align: center;
+    padding: 1rem;
+    width: 80vw;
+    align-self: stretch;
+
+}
+.Review > p,h3,b {
+    margin: 0px;
+}
+.Review > p {
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+
+.Review > h3 {
+    color: turquoise;
+    margin-top: 20px;
+}
+
+@media (min-width: 640px){
+
+    
+.Review{
+    text-align: left;
+    padding: 1rem;
+    width: 300px;
+
+}
+
+#ClientScroller {
+    overflow-x: scroll;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+}
+
+#inWrapper{
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    grid-gap: 3rem;
+}
+
+
+}

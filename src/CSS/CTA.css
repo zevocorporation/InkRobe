@@ -1,0 +1,26 @@
+#CTA{
+    margin: 0px;
+    padding: 1rem;
+    background-color: rgb(200, 255, 247);
+}
+
+#CTAWrapper {
+    background-color: rgb(200, 255, 247);
+    margin: 0px;
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+
+}
+
+#CTA > h2 {
+    margin: 0px;
+    color: turquoise;
+    font-size: 28px;
+}
+
+#CTA > p {
+    color: black;
+    font-size: 16px;
+}
+

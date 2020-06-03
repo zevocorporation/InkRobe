@@ -1,0 +1,30 @@
+#Showcase{
+    background-color: #FBFC46;
+    padding: 2rem;
+
+}
+#GalleryScroller {
+    padding: 0px;
+    width: 100vw;
+}
+#GalleryScroller > img {
+    width: 100vw;
+    margin: 0px;
+}
+
+@media (min-width: 640px){
+
+    #GalleryScroller {
+        padding: 0px;
+        grid-auto-flow: column;
+        grid-auto-columns: auto;
+        grid-template-rows: 1fr;
+        margin: 1rem;
+    }
+    #GalleryScroller > img {
+        max-width: 280px;
+        margin: 0px;
+    }
+}
+
+

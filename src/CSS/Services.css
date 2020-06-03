@@ -1,0 +1,40 @@
+.Card {
+    display: grid;
+    align-items: flex-start;
+    justify-items: center;
+    background-color: white;
+    border-radius: 5px;
+    min-width: 220px;
+    max-width: 300px;
+    grid-gap: 10px;
+    align-items: start;
+    text-align: center;
+    margin: 1rem;
+    
+}
+
+#ServiceCard{
+    height: 480px;
+}
+#Button {
+    margin-bottom: 1rem;
+    background-color: black;
+    color: white;
+    align-self: flex-end;
+}
+.Card > img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.Card > h4 {
+    margin: 0px;
+    color: #00CBB3;
+}
+
+.Card > p {
+    font-size: 12px;
+    color: #818181;
+    padding: 0rem 1rem 1rem 1rem;
+}
+

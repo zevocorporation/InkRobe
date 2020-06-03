@@ -1,0 +1,97 @@
+#FooterWrapper {
+    background-color: white;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.FooterLogo {
+    width: 180px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#FooterLinks > a {
+    color: black;
+    margin:1rem;
+    font-size: 14px;
+}
+.im > img {
+    width: 30px;
+}
+.copyright > p {
+    font-size: 14px;
+
+}
+#FooterLinks {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    justify-self: center;
+    min-width: 100%;
+    border-radius: 0px;
+}
+#Addresses {
+    background-color: white;
+    display: grid;
+    padding: 1rem ;
+    margin: 1rem;
+}
+#Logo {
+    display: grid;
+    justify-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+#Addresses > h4{
+    margin: 0px;
+    color: turquoise;
+    font-size: 14px;
+}
+
+#Addresses > p {
+    font-size: 14px;
+}
+
+.copyright{
+    display: grid;
+    justify-items: center;
+    background-color: black;
+    margin: 0rem;
+    padding: 1rem;
+    color: white;
+    width: 91%;
+}
+
+#FooterSocial {
+    background-color: white;
+    width: 91vw;
+    padding: 1rem;
+    margin: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.AddressWrapper{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+}
+
+@media (min-width: 640px){
+    .copyright {
+        width: 100vw;
+        padding: 1rem;
+    }
+    #FooterWrapper {
+       padding: 0px;
+    }
+}

@@ -1,0 +1,21 @@
+#Journey {
+    color: black;
+    padding: 2rem;
+}
+
+.JourneyWrapper  {
+    width: 100%;
+    margin: 1rem;
+}
+
+#LogoWrapper{
+    padding: 1rem 2rem 1rem 0rem;
+}
+
+@media (min-width: 640px){
+    .JourneyWrapper  {
+        width: 80%;
+        margin: 1rem;
+    }
+}
+
